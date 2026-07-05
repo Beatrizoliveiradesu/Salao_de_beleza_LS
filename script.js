@@ -85,41 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* ==========================================================================
-       SERVIÇOS - TAB FILTER (FILTRAGEM DE CATEGORIAS)
-       ========================================================================== */
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const serviceCards = document.querySelectorAll('.service-card');
-
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            // Remove active class from buttons
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            // Add active to current button
-            button.classList.add('active');
-
-            const filterValue = button.getAttribute('data-filter');
-
-            serviceCards.forEach(card => {
-                // Efeito suave de transição ao ocultar/exibir
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(10px)';
-                
-                setTimeout(() => {
-                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
-                        card.classList.remove('hide');
-                        setTimeout(() => {
-                            card.style.opacity = '1';
-                            card.style.transform = 'translateY(0)';
-                        }, 50);
-                    } else {
-                        card.classList.add('hide');
-                    }
-                }, 300);
-            });
-        });
-    });
-
-    /* ==========================================================================
        DEPOIMENTOS - SLIDER SIMPLE CAROUSEL
        ========================================================================== */
     const testimonialCards = document.querySelectorAll('.testimonial-card');

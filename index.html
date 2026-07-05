@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Studios Luz & Stylo em Manaus (Alvorada/Ajuricaba). Especialistas em mechas, luzes, alisamentos, cronograma capilar, design de sobrancelhas e unhas de gel/fibra. Agende seu horário!">
-    <title>Studios Luz & Stylo | Salão de Beleza em Manaus</title>
+    <title>Studios Luz & Stylo | Conceito Editorial em Manaus</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- CSS Customizado -->
@@ -45,48 +45,45 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero-section">
-            <div class="hero-bg" style="background-image: linear-gradient(rgba(18, 18, 18, 0.6), rgba(18, 18, 18, 0.85)), url('assets/images/mirror.png');"></div>
-            <div class="container hero-content">
-                <img src="assets/images/logo.png" alt="Studios Luz & Stylo Logo" class="hero-logo reveal">
-                <span class="hero-subtitle reveal delay-1">Sua Beleza em Evidência</span>
-                <h1 class="hero-title reveal delay-2">Realce seu brilho e estilo único</h1>
-                <p class="hero-description reveal delay-3">Especialistas em mechas, tratamentos capilares personalizados e design estético de alto padrão em Manaus. Um ambiente luxuoso preparado para cuidar de você.</p>
-                <div class="hero-actions reveal delay-4">
-                    <a href="#servicos" class="btn btn-secondary">Ver Serviços</a>
-                    <a href="#agendamento" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a>
+        <!-- Hero Section (Split-Screen) -->
+        <section id="home" class="hero-split-section">
+            <div class="hero-split-left">
+                <div class="hero-left-content">
+                    <div class="hero-logo-container reveal">
+                        <img src="assets/images/logo.png" alt="Studios Luz & Stylo Logo" class="hero-static-logo">
+                    </div>
+                    <span class="hero-subtitle reveal delay-1">Estética & Sofisticação</span>
+                    <h1 class="hero-title reveal delay-2">Realce seu brilho e estilo único</h1>
+                    <p class="hero-description reveal delay-3">Especialistas em mechas de alto padrão, tratamentos capilares personalizados e estética avançada. Um ambiente privativo em Manaus preparado para cuidar do seu bem-estar.</p>
+                    <div class="hero-actions reveal delay-4">
+                        <a href="#servicos" class="btn btn-secondary">Ver Serviços</a>
+                        <a href="#agendamento" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a>
+                    </div>
                 </div>
             </div>
-            <div class="scroll-down">
-                <a href="#diferenciais"><i class="fa-solid fa-chevron-down"></i></a>
+            <div class="hero-split-right">
+                <div class="hero-split-img" style="background-image: url('assets/images/mirror.png');"></div>
             </div>
         </section>
 
-        <!-- Diferenciais Section -->
+        <!-- Diferenciais Section (Minimal) -->
         <section id="diferenciais" class="diferenciais-section">
             <div class="container">
                 <div class="diferenciais-grid">
                     <div class="diferencial-card reveal">
-                        <div class="icon-wrapper">
-                            <i class="fa-solid fa-gem"></i>
-                        </div>
+                        <div class="diferencial-number">01</div>
                         <h3>Serviço Premium</h3>
-                        <p>Produtos de marcas consagradas no mercado mundial para garantir a saúde dos seus fios e pele.</p>
+                        <p>Uso exclusivo de cosméticos e tratamentos de alta performance para a saúde dos seus cabelos.</p>
                     </div>
                     <div class="diferencial-card reveal delay-1">
-                        <div class="icon-wrapper">
-                            <i class="fa-solid fa-users"></i>
-                        </div>
+                        <div class="diferencial-number">02</div>
                         <h3>Especialistas</h3>
-                        <p>Profissionais atualizados com as últimas tendências internacionais de corte, cor e estética.</p>
+                        <p>Profissionais experientes atualizados com as melhores técnicas de corte e iluminação capilar.</p>
                     </div>
                     <div class="diferencial-card reveal delay-2">
-                        <div class="icon-wrapper">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <h3>Atendimento Personalizado</h3>
-                        <p>Cada cliente é única. Fazemos uma consultoria de imagem antes de cada procedimento.</p>
+                        <div class="diferencial-number">03</div>
+                        <h3>Atendimento Único</h3>
+                        <p>Consultoria personalizada que respeita seu estilo, traços e características individuais.</p>
                     </div>
                 </div>
             </div>
@@ -104,178 +101,205 @@
                 </div>
                 <div class="sobre-content reveal delay-1">
                     <span class="section-subtitle">Quem Somos</span>
-                    <h2 class="section-title">Inovação e Sofisticação para o seu visual</h2>
-                    <p class="sobre-text">Localizado no bairro Alvorada (Ajuricaba) em Manaus, o **Studios Luz & Stylo** é referência em transformar e elevar a autoestima de nossas clientes. Sob um conceito de beleza integrada, unimos técnica, criatividade e dedicação para proporcionar resultados extraordinários.</p>
-                    <p class="sobre-text">Nosso salão oferece um ambiente confortável e sofisticado onde você pode relaxar enquanto cuida do seu cabelo, unhas e sobrancelhas. Acreditamos que a beleza vai muito além do visual: é uma expressão de estilo e bem-estar.</p>
+                    <h2 class="section-title">Harmonia e inovação para o seu visual</h2>
+                    <p class="sobre-text">Situado no tradicional bairro Alvorada (Ajuricaba), em Manaus, o **Studios Luz & Stylo** surgiu com a premissa de oferecer mais do que serviços de beleza comum: entregamos uma consultoria completa de imagem e autoestima.</p>
+                    <p class="sobre-text">Buscamos criar um refúgio acolhedor onde cada detalhe foi planejado para sua comodidade. Aliamos as melhores marcas do mercado capilar com técnicas precisas para um resultado natural e saudável.</p>
                     <ul class="sobre-bullets">
-                        <li><i class="fa-solid fa-check gold-text"></i> Especialistas em Mechas e Luzes Modernas</li>
-                        <li><i class="fa-solid fa-check gold-text"></i> Alisamentos e Botox de longa duração</li>
-                        <li><i class="fa-solid fa-check gold-text"></i> Manicure Premium com alongamentos em Fibra e Gel</li>
-                        <li><i class="fa-solid fa-check gold-text"></i> Design de Sobrancelhas personalizado</li>
+                        <li><i class="fa-solid fa-circle-check gold-text"></i> Especialistas em Mechas, Iluminação e Luzes</li>
+                        <li><i class="fa-solid fa-circle-check gold-text"></i> Alisamentos Seguros e Botox Termoativo</li>
+                        <li><i class="fa-solid fa-circle-check gold-text"></i> Manicure Avançada e Alongamentos de Fibra/Gel</li>
+                        <li><i class="fa-solid fa-circle-check gold-text"></i> Design de Sobrancelhas Personalizado com Henna</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Serviços Section -->
+        <!-- Serviços Section (Spa Catalog & Instagram Embed) -->
         <section id="servicos" class="servicos-section section-padding">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-subtitle">Nossos Serviços</span>
-                    <h2 class="section-title">O que fazemos por você</h2>
+                    <span class="section-subtitle">Catálogo de Serviços</span>
+                    <h2 class="section-title">Nossos Procedimentos</h2>
                 </div>
 
-                <div class="services-filter reveal">
-                    <button class="filter-btn active" data-filter="all">Todos</button>
-                    <button class="filter-btn" data-filter="hair">Cabelo & Cor</button>
-                    <button class="filter-btn" data-filter="treat">Tratamentos</button>
-                    <button class="filter-btn" data-filter="nails">Unhas</button>
-                    <button class="filter-btn" data-filter="esthetic">Estética</button>
-                </div>
+                <div class="services-split-layout">
+                    <!-- Menu Estilo SPA -->
+                    <div class="services-menu-area reveal">
+                        
+                        <!-- Categoria Cabelo -->
+                        <div class="menu-category-block">
+                            <h3 class="category-title">Cabelo & Coloração</h3>
+                            
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Mechas & Luzes</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 250+</span>
+                                </div>
+                                <p class="menu-item-desc">Ombré hair, contorno e reflexos desenhados sob medida.</p>
+                            </div>
 
-                <div class="services-grid reveal delay-1">
-                    <!-- Cabelo & Cor -->
-                    <div class="service-card" data-category="hair">
-                        <div class="service-img-wrapper">
-                            <img src="assets/images/hair.jpg" alt="Mechas e Coloração" class="service-img">
-                            <span class="service-tag">Destaque</span>
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Corte Feminino Premium</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 60+</span>
+                                </div>
+                                <p class="menu-item-desc">Repicados, chanel, long bob e cortes modernos texturizados.</p>
+                            </div>
+
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Escovas & Finalização</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 40+</span>
+                                </div>
+                                <p class="menu-item-desc">Escova modelada lisa ou ondulada para eventos.</p>
+                            </div>
                         </div>
-                        <div class="service-info">
-                            <h3 class="service-name">Mechas & Luzes</h3>
-                            <p class="service-desc">Técnicas modernas como ombré hair, contorno e reflexos personalizados para iluminar seu rosto com saúde.</p>
-                            <span class="service-price">A partir de R$ 250,00</span>
+
+                        <!-- Categoria Tratamentos -->
+                        <div class="menu-category-block">
+                            <h3 class="category-title">Tratamentos Capilares</h3>
+                            
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Cronograma Capilar</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">Cons.</span>
+                                </div>
+                                <p class="menu-item-desc">Etapas de hidratação, nutrição e reconstrução intensa.</p>
+                            </div>
+
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Botox Capilar</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 120+</span>
+                                </div>
+                                <p class="menu-item-desc">Redução de frizz, selagem de cutículas e brilho espelhado.</p>
+                            </div>
+
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Alisamentos (Progressiva)</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 180+</span>
+                                </div>
+                                <p class="menu-item-desc">Redução definitiva ou termoativa de volume com segurança.</p>
+                            </div>
                         </div>
+
+                        <!-- Categoria Unhas & Sobrancelhas -->
+                        <div class="menu-category-block">
+                            <h3 class="category-title">Estética & Unhas</h3>
+                            
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Unhas de Fibra & Gel</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 130+</span>
+                                </div>
+                                <p class="menu-item-desc">Alongamento de alta durabilidade e acabamento super natural.</p>
+                            </div>
+
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Combo Manicure & Pedicure</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 50</span>
+                                </div>
+                                <p class="menu-item-desc">Cutilagem fina e esmaltação tradicional duradoura.</p>
+                            </div>
+
+                            <div class="menu-item-row">
+                                <div class="menu-item-header">
+                                    <span class="menu-item-name">Design de Sobrancelha + Henna</span>
+                                    <span class="menu-item-line"></span>
+                                    <span class="menu-item-price">R$ 50</span>
+                                </div>
+                                <p class="menu-item-desc">Mapeamento facial para definição harmônica com henna premium.</p>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div class="service-card" data-category="hair">
-                        <div class="service-img-wrapper">
-                            <img src="assets/images/products.png" alt="Cortes Modernos" class="service-img">
-                        </div>
-                        <div class="service-info">
-                            <h3 class="service-name">Cortes Modernos</h3>
-                            <p class="service-desc">Repicados, chanel, long bob, e cortes estilizados adaptados ao formato do seu rosto.</p>
-                            <span class="service-price">A partir de R$ 60,00</span>
-                        </div>
-                    </div>
-
-                    <div class="service-card" data-category="hair">
-                        <div class="service-img-wrapper">
-                            <img src="assets/images/hair.jpg" alt="Escovas e Penteados" class="service-img">
-                        </div>
-                        <div class="service-info">
-                            <h3 class="service-name">Escovas & Finalização</h3>
-                            <p class="service-desc">Escovas modeladas, lisas e penteados especiais para festas e eventos cotidianos.</p>
-                            <span class="service-price">A partir de R$ 40,00</span>
-                        </div>
-                    </div>
-
-                    <!-- Tratamentos -->
-                    <div class="service-card" data-category="treat">
-                        <div class="service-img-wrapper">
-                            <img src="assets/images/shelf.png" alt="Cronograma Capilar" class="service-img">
-                            <span class="service-tag">Recomendado</span>
-                        </div>
-                        <div class="service-info">
-                            <h3 class="service-name">Cronograma Capilar</h3>
-                            <p class="service-desc">Tratamento em etapas com hidratação profunda, nutrição e reconstrução para repor a massa capilar.</p>
-                            <span class="service-price">Sob Consulta</span>
-                        </div>
-                    </div>
-
-                    <div class="service-card" data-category="treat">
-                        <div class="service-img-wrapper">
-                            <img src="assets/images/hair.jpg" alt="Botox Capilar" class="service-img">
-                        </div>
-                        <div class="service-info">
-                            <h3 class="service-name">Botox Capilar</h3>
-                            <p class="service-desc">Redução de frizz e volume, selando as cutículas e devolvendo brilho e maciez extrema aos fios.</p>
-                            <span class="service-price">A partir de R$ 120,00</span>
-                        </div>
-                    </div>
-
-                    <div class="service-card" data-category="treat">
-                        <div class="service-info-only">
-                            <h3 class="service-name">Alisamentos (Progressiva/Inteligente)</h3>
-                            <p class="service-desc">Alisamentos seguros e hidratantes que reduzem o volume e mantêm a praticidade dos seus fios no dia a dia.</p>
-                            <span class="service-price">A partir de R$ 180,00</span>
-                        </div>
-                    </div>
-
-                    <!-- Unhas -->
-                    <div class="service-card" data-category="nails">
-                        <div class="service-img-wrapper">
-                            <img src="assets/images/products.png" alt="Alongamento em Gel e Fibra" class="service-img">
-                            <span class="service-tag">Popular</span>
-                        </div>
-                        <div class="service-info">
-                            <h3 class="service-name">Unhas de Fibra & Gel</h3>
-                            <p class="service-desc">Alongamento super natural e resistente. Inclui blindagem, banho de gel e nail art personalizada.</p>
-                            <span class="service-price">A partir de R$ 130,00</span>
-                        </div>
-                    </div>
-
-                    <div class="service-card" data-category="nails">
-                        <div class="service-info-only">
-                            <h3 class="service-name">Manicure & Pedicure Comum</h3>
-                            <p class="service-desc">Cutilagem perfeita, esmaltação tradicional com produtos de alta durabilidade e hidratação das mãos.</p>
-                            <span class="service-price">R$ 50,00 (Combo)</span>
-                        </div>
-                    </div>
-
-                    <!-- Estética -->
-                    <div class="service-card" data-category="esthetic">
-                        <div class="service-img-wrapper">
-                            <img src="assets/images/shelf.png" alt="Design de Sobrancelhas" class="service-img">
-                        </div>
-                        <div class="service-info">
-                            <h3 class="service-name">Design de Sobrancelha</h3>
-                            <p class="service-desc">Mapeamento facial para encontrar o desenho ideal que valoriza o seu olhar de forma harmônica.</p>
-                            <span class="service-price">R$ 35,00</span>
-                        </div>
-                    </div>
-
-                    <div class="service-card" data-category="esthetic">
-                        <div class="service-info-only">
-                            <h3 class="service-name">Sobrancelha com Henna</h3>
-                            <p class="service-desc">Design personalizado com aplicação de henna premium para preenchimento de falhas e realce do olhar.</p>
-                            <span class="service-price">R$ 50,00</span>
+                    <!-- Coluna de Destaque com o Vídeo Real do Instagram -->
+                    <div class="featured-transformation-area reveal delay-1">
+                        <div class="featured-media-card">
+                            <div class="card-text-header">
+                                <span class="featured-tag">Antes & Depois</span>
+                                <h3>Resultado em Vídeo</h3>
+                                <p>Veja com seus próprios olhos a mágica da transformação capilar feita em nosso salão.</p>
+                            </div>
+                            
+                            <div class="instagram-embed-box">
+                                <!-- Instagram Embed Block -->
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DR8GSIHEZ7j/" data-instgrm-version="14" style="background:#1a1a1a; border:0; border-radius:12px; margin: 1px; width:100%; max-width:540px; min-width:320px;">
+                                    <div style="padding:16px;">
+                                        <a href="https://www.instagram.com/p/DR8GSIHEZ7j/" style=" background:#1a1a1a; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 20px;">
+                                                <div style="background-color: #cfab7a; border-radius: 50%; height: 40px; width: 40px; margin-right: 12px;"></div>
+                                                <div style="display: flex; flex-direction: column;">
+                                                    <div style="background-color: #2c2c2c; border-radius: 4px; height: 14px; width: 120px; margin-bottom: 6px;"></div>
+                                                    <div style="background-color: #2c2c2c; border-radius: 4px; height: 14px; width: 70px;"></div>
+                                                </div>
+                                            </div>
+                                            <div style="padding: 20% 0;"></div>
+                                            <div style="display:block; height:60px; margin:0 auto 12px; width:60px;">
+                                                <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <g fill="#cfab7a">
+                                                            <path d="M30,0 C13.433,0 0,13.433 0,30 C0,46.567 13.433,60 30,60 C46.567,60 60,46.567 60,30 C60,13.433 46.567,0 30,0 Z M45,28.5 L24,41 C23.3,41.4 22.5,41.4 21.8,41 C21.1,40.6 20.7,39.8 20.7,39 L20.7,14 C20.7,13.2 21.1,12.4 21.8,12 C22.5,11.6 23.3,11.6 24,12 L45,24.5 C45.6,24.9 46,25.7 46,26.5 C46,27.3 45.6,28.1 45,28.5 Z"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div style="padding-top: 15px;">
+                                                <span style="color:#cfab7a; font-family:var(--font-body); font-size:15px; font-weight:600;">Ver antes e depois no Instagram</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </blockquote>
+                                <script async src="//www.instagram.com/embed.js"></script>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Galeria Section -->
+        <!-- Galeria Section (Editorial Masonry) -->
         <section id="galeria" class="galeria-section section-padding">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-subtitle">Nosso Portfolio</span>
-                    <h2 class="section-title">Resultados de Arrasar</h2>
+                    <span class="section-subtitle">Portfolio</span>
+                    <h2 class="section-title">Galeria de Resultados</h2>
                 </div>
 
-                <div class="galeria-grid reveal">
-                    <div class="galeria-item">
-                        <img src="assets/images/hair.jpg" alt="Mechas Loiro Perfeito">
-                        <div class="galeria-overlay">
-                            <span>Mechas Perfeitas</span>
-                        </div>
-                    </div>
-                    <div class="galeria-item">
-                        <img src="assets/images/products.png" alt="Linha de Produtos Capilares">
-                        <div class="galeria-overlay">
-                            <span>Produtos Premium</span>
-                        </div>
-                    </div>
-                    <div class="galeria-item">
-                        <img src="assets/images/shelf.png" alt="Expositor de Produtos LED">
-                        <div class="galeria-overlay">
-                            <span>Exposição & Cuidado</span>
-                        </div>
-                    </div>
-                    <div class="galeria-item">
-                        <img src="assets/images/mirror.png" alt="Salão de Beleza Interno">
-                        <div class="galeria-overlay">
+                <div class="editorial-gallery-grid reveal">
+                    <div class="gallery-item-tall">
+                        <img src="assets/images/mirror.png" alt="Salão de Beleza Interno Studios Luz & Stylo">
+                        <div class="gallery-info">
                             <span>Nosso Espaço</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item-wide">
+                        <img src="assets/images/products.png" alt="Produtos Capilares Exclusivos">
+                        <div class="gallery-info">
+                            <span>Linha Profissional</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item-normal">
+                        <img src="assets/images/hair.jpg" alt="Transformação Mechas Loiro Perfeito">
+                        <div class="gallery-info">
+                            <span>Loiro Destaque</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item-normal">
+                        <img src="assets/images/shelf.png" alt="Detalhe do Expositor de Produtos">
+                        <div class="gallery-info">
+                            <span>Cuidado & Estilo</span>
                         </div>
                     </div>
                 </div>
@@ -367,7 +391,7 @@
                                     <option value="" disabled selected>Escolha um serviço</option>
                                     <optgroup label="Cabelo & Coloração">
                                         <option value="Mechas e Luzes">Mechas & Luzes</option>
-                                        <option value="Corte Moderno">Cortes Modernos</option>
+                                        <option value="Corte Feminino Premium">Cortes Femininos</option>
                                         <option value="Escova e Penteado">Escovas & Finalização</option>
                                     </optgroup>
                                     <optgroup label="Tratamentos">
@@ -377,11 +401,10 @@
                                     </optgroup>
                                     <optgroup label="Unhas">
                                         <option value="Unhas Fibra ou Gel">Unhas de Fibra & Gel</option>
-                                        <option value="Manicure e Pedicure">Manicure & Pedicure (Combo)</option>
+                                        <option value="Manicure e Pedicure">Manicure & Pedicure</option>
                                     </optgroup>
                                     <optgroup label="Estética">
-                                        <option value="Design de Sobrancelha">Design de Sobrancelha</option>
-                                        <option value="Sobrancelha com Henna">Sobrancelha com Henna</option>
+                                        <option value="Design de Sobrancelha + Henna">Design + Henna</option>
                                     </optgroup>
                                 </select>
                             </div>
