@@ -1,0 +1,12 @@
+{
+  "name": "studios-luz-stylo-site",
+  "version": "1.0.0",
+  "description": "Website do salão de beleza Studios Luz & Stylo",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y browser-sync start --server --files \"*.html, *.css, *.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
