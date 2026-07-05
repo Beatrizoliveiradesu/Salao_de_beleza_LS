@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Número de telefone do salão Studios Luz & Stylo
         // Pode ser customizado com o número real do cliente
-        const phoneNumber = '5592999999999'; 
+        const phoneNumber = '5592988441542'; 
 
         // Montagem da mensagem formatada para WhatsApp
         let message = `Olá, *Studios Luz & Stylo*!\n\n`;
